@@ -13,6 +13,11 @@ body {
     grid-area: header;
 }
 
+.subheader {
+    font-size: large;
+    grid-area: subheader;
+}
+
 .footer {
     grid-area: footer;
 }
@@ -20,11 +25,11 @@ body {
 .wrapper {
     display: grid;
     grid-gap: 100px;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 70% 10%;
     grid-template-areas:
-    "....... header ......."
-    "....... content ......."
-    "....... footer .......";
+    "header ....... ......."
+    "subheader content ......."
+    "subheader footer .......";
     background-color: #fff;
     color: 444;
 }
