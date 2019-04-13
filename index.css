@@ -3,13 +3,13 @@ body {
 }
 
 .content {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 0%;
+    margin-right: 20%
     grid-area: content;
 }
 
 .header {
-    font-size: x-large;
+    font-size: xx-large;
     grid-area: header;
 }
 
@@ -25,11 +25,11 @@ body {
 .wrapper {
     display: grid;
     grid-gap: 100px;
-    grid-template-columns: 20% 70% 10%;
+    grid-template-columns: 10% 90%;
     grid-template-areas:
-    "header ....... ......."
-    "subheader content ......."
-    "subheader footer .......";
+    "header header"
+    "subheader content"
+    "footer footer";
     background-color: #fff;
     color: 444;
 }
