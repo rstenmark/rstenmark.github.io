@@ -1,0 +1,30 @@
+body {
+    margin: 40px;
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-area: content;
+}
+
+.header {
+    font-size: x-large;
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas:
+    "....... header ......."
+    "....... content ......."
+    "....... footer .......";
+    background-color: #fff;
+    color: 444;
+}
