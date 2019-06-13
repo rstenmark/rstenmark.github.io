@@ -4,6 +4,8 @@ a {
 }
 
 body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
     margin: 2% 20%;
     background-color: #fff;
 }
@@ -16,7 +18,7 @@ body {
 
 
 .header {
-    font-size: xx-large;
+    font-size: 24pt;
     grid-area: header;
 }
 
@@ -34,7 +36,6 @@ body {
 .footer {
     grid-area: footer;
 }
-
 
 .wrapper {
     display: grid;
@@ -63,11 +64,11 @@ body {
     background-position: -32px 0px;
 }
 
-#Soundcloud {
+#Linkedin {
     position: relative;
-    background: url('img/soundcloud32.png') no-repeat left top;
+    background: url('img/linkedin32.png') no-repeat left top;
 }
 
-#Soundcloud:hover {
+#Linkedin:hover {
     background-position: -32px 0px;
 }
